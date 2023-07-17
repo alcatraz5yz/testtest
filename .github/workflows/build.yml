@@ -19,8 +19,8 @@ jobs:
       - name: Set up Java
         uses: actions/setup-java@v3
         with:
-          java-version: '16'
           distribution: 'maven'
+          java-version: '16'
           # maven-version: '3.8.4'
 
       - name: Build with Maven
